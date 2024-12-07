@@ -1,0 +1,51 @@
+.equipment-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  width: 250px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.equipment-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.equipment-details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.price {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.availability {
+  color: #28a745;
+}
+
+.unavailable {
+  color: #dc3545;
+}
+
+.reviews {
+  margin-top: 10px;
+}
+
+.rent-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.rent-button:hover {
+  background-color: #0056b3;
+}

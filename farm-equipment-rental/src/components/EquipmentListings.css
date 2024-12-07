@@ -1,0 +1,75 @@
+.filters {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 30px;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  top: 0;
+}
+
+.filters select,
+.filters input[type="number"] {
+  padding: 4px;
+  font-size: 0.9em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 150px;
+  height: 30px;
+}
+
+.filters select:focus,
+.filters input[type="number"]:focus {
+  border-color: #4da6ff;
+  outline: none;
+}
+
+.equipment-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.equipment-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  width: 250px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+}
+
+.equipment-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.equipment-card:hover {
+  transform: scale(1.05);
+}
+
+.rent-now-button {
+  background-color: #4da6ff;
+  color: white;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.rent-now-button:hover {
+  background-color: #3399ff;
+}
+
+.available {
+  color: green;
+}
+
+.rented {
+  color: red;
+}
